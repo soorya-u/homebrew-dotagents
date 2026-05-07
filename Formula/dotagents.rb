@@ -1,7 +1,7 @@
 class Dotagents < Formula
   desc "CLI to manage and template configuration files for AI agents"
   homepage "https://github.com/soorya-u/dotagents"
-  version "0.1.0"
+  version "0.0.0"
 
   on_macos do
     on_arm do
