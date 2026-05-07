@@ -5,11 +5,11 @@ class Dotagents < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-aarch64-apple-darwin"
+      url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-macos-arm64"
       sha256 "PLACEHOLDER_SHA256_MACOS_ARM64"
     end
     on_intel do
-      url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-x86_64-apple-darwin"
+      url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-macos-x86"
       sha256 "PLACEHOLDER_SHA256_MACOS_X86"
     end
   end
