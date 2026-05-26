@@ -1,16 +1,16 @@
 class Dotagents < Formula
   desc "CLI to manage and template configuration files for AI agents"
   homepage "https://github.com/soorya-u/dotagents"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-macos-arm64"
-      sha256 "0913009c42df534a46e31f5a104911b521ae723c46d70314ff46cf91a0ec1307"
+      sha256 "365f57a134583a0804314aa29351135949c5fad77c15a9b9c00973f597aff68d"
     end
     on_intel do
       url "https://github.com/soorya-u/dotagents/releases/download/v#{version}/dotagents-macos-x86"
-      sha256 "e2cdaa0758244d53a3144738737d0cd04f45669b241022d2ea983bfeb024ece6"
+      sha256 "6139b7df8f998dd32b63af8e97eacfbb60f0a4b04b683af78cdf0a8848c0d095"
     end
   end
 
